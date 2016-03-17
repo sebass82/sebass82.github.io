@@ -1,10 +1,40 @@
 h1{
 	font-family: Helvetica;
-	font-size: 28;
+	font-size: 40px;
+	color: red;
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
 }
 
 h2 {
 	text-align: center;
+	color: red
+	font-size: 36px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: green;
+}
+
+p {
+	font-family: Helvetica;
+	color: red;
+	font-size: 26px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
 }
 
 div {
@@ -19,4 +49,63 @@ div {
 	padding-bottom: 8px;
 }
 
+body {
+	background-image: url(ct.jpg);
+	border: 2px solid black;
+	opacity: 0.8;
+}
 
+.nachart {
+	font-family: Helvetica;
+	color: red;
+	padding: 20px;
+	font-size: 	20px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+.euchart {
+	font-family: Helvetica;
+	color: red;
+	padding: 20px;
+	font-size: 	20px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+.intro {
+	font-family: Comic;
+}
+
+.upcoming {
+	font-family: Helvetica;
+	color: red;
+	font-size: 	18px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+.events {
+	font-family: Helvetica;
+	color: 	red;
+	font-size: 	18px;
+		-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
+
+.footer {
+	font-family: Helvetica;
+	background: black;
+	color: red;
+	padding: 15px;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		background-color: red;
+	}
+}
